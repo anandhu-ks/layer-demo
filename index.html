@@ -202,13 +202,13 @@
           function (response) {
             console.log(response);
             if (response.status == "captured") {
-              window.location.href = "success_redirect_url";
+              window.location.href = "https://www.zwitch.io";
             } else if (response.status == "created") {
             } else if (response.status == "pending") {
             } else if (response.status == "failed") {
-              window.location.href = "failure_redirect_url";
+              window.location.href = "https://www.zwitch.io";
             } else if (response.status == "cancelled") {
-              window.location.href = "cancel_redirect_url";
+              window.location.href = "https://www.zwitch.io";
             }
           },
           function (err) {
